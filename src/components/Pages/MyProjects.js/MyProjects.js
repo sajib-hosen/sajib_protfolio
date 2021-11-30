@@ -4,6 +4,7 @@ import wooderFur from './../../../images/wooden-furniture.jpg'
 import honda from './../../../images/honda.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom';
 
 const MyProjects = () => {
     useEffect(() =>{
@@ -30,7 +31,7 @@ const MyProjects = () => {
                             </ul>
                         </p> <br/>
                         <button className='border-2 px-4 rounded-full hover:bg-indigo-500'><a href='https://management-app-21.web.app/' target="_blank">Visite Site</a></button>
-                        <button className='border-2 px-4 rounded-full hover:bg-indigo-500 mx-2'><a href='https://management-app-21.web.app/' target="_blank">Details</a></button>
+                        <button className='border-2 px-4 rounded-full hover:bg-indigo-500 mx-2'><Link to="/manApp">Details</Link></button>
                     </div>
                 </div> <br/><br/>
 
@@ -49,7 +50,7 @@ const MyProjects = () => {
                             </ul>
                         </p> <br/>
                         <button className='border-2 px-4 rounded-full hover:bg-indigo-500'><a href='https://wooden-furniture-a.web.app/' target="_blank">Visite Site</a></button>
-                        <button className='border-2 px-4 rounded-full hover:bg-indigo-500 mx-2'><a href='https://wooden-furniture-a.web.app/' target="_blank">Details</a></button>
+                        <button className='border-2 px-4 rounded-full hover:bg-indigo-500 mx-2'><Link to="/woodenFur">Details</Link></button>
                     </div>
                 </div> <br/><br/>
 
@@ -68,7 +69,7 @@ const MyProjects = () => {
                             </ul>
                         </p> <br/>
                         <button className='border-2 px-4 rounded-full hover:bg-indigo-500'><a href='https://sajib-hosen.github.io/honda/index.html' target="_blank">Visite Site</a></button>
-                        <button className='border-2 px-4 rounded-full hover:bg-indigo-500 mx-2'><a href='https://sajib-hosen.github.io/honda/index.html' target="_blank">Details</a></button>
+                        <button className='border-2 px-4 rounded-full hover:bg-indigo-500 mx-2'><Link to="/honda">Details</Link></button>
                     </div>
                 </div> <br/>
             </div>

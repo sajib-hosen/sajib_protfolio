@@ -21,7 +21,7 @@ const TopBanner = () => {
 
     const [hireBtn, setHireBtn] = useState(false)
     return (
-       <div className="text-white py-20 flex justify-center items-center" style={{backgroundImage: "url('https://scx2.b-cdn.net/gfx/news/2019/galaxy.jpg')"}}>
+       <div className="text-white py-32 flex justify-center items-center" style={{backgroundImage: "url('https://scx2.b-cdn.net/gfx/news/2019/galaxy.jpg')", backgroundPosition: 'center', backgroundAttachment: 'fixed', backgroundRepeat: 'no-repeat'}}>
            
            <div className="font-roboto" > 
                 <div className='flex flex-col p-4'>
