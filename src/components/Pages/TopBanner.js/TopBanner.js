@@ -21,7 +21,7 @@ const TopBanner = () => {
 
     const [hireBtn, setHireBtn] = useState(false)
     return (
-       <div className="text-white py-40" style={{backgroundImage: "url('https://scx2.b-cdn.net/gfx/news/2019/galaxy.jpg')"}}>
+       <div className="text-white py-20 flex justify-center items-center" style={{backgroundImage: "url('https://scx2.b-cdn.net/gfx/news/2019/galaxy.jpg')"}}>
            
            <div className="font-roboto" > 
                 <div className='flex flex-col p-4'>
@@ -55,7 +55,7 @@ const TopBanner = () => {
                         </div>
                    </div>
                    <div>
-                       <p className='flex flex-row py-2'>
+                       <p className='flex flex-row py-2 '>
                            <span data-aos="fade-up"  data-aos-duration="1000" className='px-2 text-2xl'>{react}</span> 
                            <span data-aos="fade-up"  data-aos-duration="1500" className='px-2 text-2xl'>{nodeJs}</span> 
                            <span data-aos="fade-up"  data-aos-duration="2500" className='px-2 text-2xl'>{js}</span> 
@@ -67,7 +67,7 @@ const TopBanner = () => {
                            <span data-aos="fade-up" data-aos-duration="3000" className='px-2 text-2xl'>{css3}</span>
                            </p>
                    </div>
-                   <div className='font-roboto'><button className='text-white border-2 px-2'><a target="_blank" href="https://drive.google.com/file/d/1yGsYq_JW-vFVTHqk_HyYgStJOyhTC1X1/view?usp=sharing">Get Resume</a></button></div>
+                   <div className='font-roboto'><button className='text-white border-2 px-2  hover:bg-indigo-600 rounded-full'><a target="_blank" href="https://drive.google.com/file/d/1yGsYq_JW-vFVTHqk_HyYgStJOyhTC1X1/view?usp=sharing">Get Resume</a></button></div>
                 </div>               
            </div>
            

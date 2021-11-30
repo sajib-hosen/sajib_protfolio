@@ -21,8 +21,8 @@ const AboutMe = () => {
                     <h1 className='text-4xl text-white font-bold'>Hi, I'm <span className='text-yellow-300'>Sajib Hosen</span></h1> <br />
                     <p className='text-white'>I'm a Bangladesh based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me</p>
                     <br />
-                    <button className='text-white border-2 px-2'><a target="_blank" href="https://drive.google.com/file/d/1yGsYq_JW-vFVTHqk_HyYgStJOyhTC1X1/view?usp=sharing">Download Resume</a></button>
-                    <button className='px-3 border-2 mx-2 text-white'>Hire Me</button>
+                    <button className='hover:bg-indigo-600 rounded-full text-white border-2 px-2'><a target="_blank" href="https://drive.google.com/file/d/1yGsYq_JW-vFVTHqk_HyYgStJOyhTC1X1/view?usp=sharing">Resume</a></button>
+                    <button className='hover:bg-indigo-600 rounded-full px-3 border-2 mx-2 text-white'>Hire Me</button>
                 </div>
             </div>
         </div>
